@@ -77,7 +77,7 @@ public class Computador implements Icomputadora{
       
     
     public String especificacionesTecnicas(){
-        return "Especificiaciones Técnicas:\n"
+        return "Especificiaciones Tecnicas:\n"
                +"Modelo : "+modelo+"\n"
                +"Marca: "+marca+"\n"
                +"Mainboard: "+placa+"\n"

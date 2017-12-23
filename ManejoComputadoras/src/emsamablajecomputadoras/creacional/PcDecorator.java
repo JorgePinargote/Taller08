@@ -11,5 +11,10 @@ public abstract class PcDecorator implements Icomputadora {
 	public String especificacionesTecnicas() {
 		return this.computador.especificacionesTecnicas();
 	}
+
+	public Icomputadora getComputador() {
+		return computador;
+	}
+
 	
 }

@@ -11,8 +11,8 @@ public class AsusGamer extends PcDecorator {
 	}
 	
 	public String especificacionesTecnicas(){
-        return  "Asus Gamer\n" + super.computador.especificacionesTecnicas() + 
-        		"\nMemoria Ram Extendida: "+ramex.capacidad+ " Gb " + ramex.tipo+"\n"; 
+        return  "Extendida a Gamer\n" + super.computador.especificacionesTecnicas() + 
+        		"\nMemoria Ram Extendida: "+ramex.capacidad+ " Gb " + ramex.tipo; 
     }
 	
 

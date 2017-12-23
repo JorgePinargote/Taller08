@@ -6,6 +6,7 @@ public class AsusZenbook  extends ConstruirComputador{
 	@Override
 	void DefinirComputador() {
 		computador = new Computador();
+		
 		computador.marca="ASUS";
 		computador.modelo="Zenbook";
 		
